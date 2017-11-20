@@ -1,0 +1,391 @@
+@import url(http://allfont.net/allfont.css?fonts=passion-one);
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* todos los display flex alineados al centro */
+.contacto p, .info, .info a, .boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto p {
+    flex-direction: column;
+    color: rgb(68, 68, 68);
+}
+
+.contacto p a {
+    color: rgb(108,124,132);
+    text-decoration: none;
+    border: none;
+}
+
+.contacto {
+    width: 100%;
+    height: 50px;
+    line-height: 1.5rem;
+    background-color: rgb( 0,34,70);
+}
+
+p ~ ul>li {
+    display: none;
+    list-style: none;
+}
+
+
+
+/* titulo jose planes */
+img ~ h1 {
+    font-family:  Passion One;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+
+header {
+    background-color: rgb( 1,34,50);
+    width: 100%;
+}
+
+header h1 {
+    float: left;
+    padding: 25px 10px;
+}
+
+header img {
+    float: left;
+}
+
+/* imagen cabecera */
+.imagen {
+    background-image: url(../imagenes/fondo.jpg);
+    width: 100%;
+    height: 255px;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.imagen h2 {
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    font-family: Passion One;
+    mix-blend-mode: hard-light;
+    background-color: rgb( 146,197 , 0);
+    padding: 0 1rem;
+}
+.imagen h3 {
+    line-height: 1rem;
+    font-family: comfortaa;
+    font-size: .7rem;
+    mix-blend-mode: hard-light;
+    background-color: rgb( 1,34,50);
+    padding: 0 1rem;
+}
+
+.info {
+    padding: .5rem;
+    flex-direction: column;
+    background-color: rgb( 1,34,50);    
+}
+.info h1 {
+    width: 60%;
+    font-family: passion one;
+    color: white;
+}
+.info p {
+    width: 70%;
+    color: rgb(108,124,132);
+}
+.info .boton2 {
+    margin-top: 5px;
+    padding: 5px 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+}
+.info .boton2:active {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(146,197, 0);
+    border-color: rgb(146,197, 0);
+    outline: none;
+}
+
+
+.similar h1 {
+    font-family: passion one;
+    line-height: 2rem;
+    padding: 5px 50px;
+    background-color: rgb(111,150 , 0);
+    color: white;
+    text-align: center;
+}
+
+.noticias article {
+    margin: 5px;
+    border: 2px groove black;
+}
+.noticias .dia {
+    font: 1.2rem bold;
+}
+.noticias article h2 {
+    font-size: 1rem;
+}
+.noticias .intro {
+    display: none;
+}
+time {
+    background-color: rgb(146,197, 0);
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin: 4px;
+    margin-right: 10px;
+}
+article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contacta div:nth-child(1),.contacta div:nth-child(2),.contacta div:nth-child(3) {
+    margin: 10px 20px;
+    line-height: 25px;
+}
+.contacta h2 {
+    font-size: 1.2rem;
+    font-family: passion one ;
+    color: rgb(146,197, 0);
+    letter-spacing: 2px;
+}
+.contacta ul {
+    width: 100px;
+    height: 60px;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacta a {
+    text-decoration: none;
+}
+.contacta ul li {
+    list-style: none;
+    margin: 0 7px;    
+}
+.contacta ul a:nth-child(1) li{
+    background-image: url(../iconos/facebook.png);
+    background-size: contain;
+    background-size: ;
+    width: 45px;
+    height: 45px;
+}
+.contacta ul a:nth-child(2) li{
+    background-image: url(../iconos/twitter.png);
+    background-size: contain;
+    background-size: ;
+    width: 45px;
+    height: 45px;
+}
+.contacta ul a:nth-child(3) li{
+    background-image: url(../iconos/google-plus.png);
+    background-size: contain;
+    background-size: ;
+    width: 45px;
+    height: 45px;
+}
+.contacta ul a:nth-child(4) li{
+    background-image: url(../iconos/instagram.png);
+    background-size: contain;
+    background-size: ;
+    width: 45px;
+    height: 45px;
+}
+.contacta div:nth-child(3) h2 {
+    text-align: center;
+}
+.contacta div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contacta div:nth-child(3) textarea {
+    margin: 10px;
+    width: 85%;
+    color: rgb(108, 124, 132)
+}
+.boton3 {
+    color: white;
+    border-radius: 20px;
+    background: rgba(144,197,0,1);
+    background: -moz-linear-gradient(top, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(144,197,0,1)), color-stop(100%, rgba(110,150,0,1)));
+    background: -webkit-linear-gradient(top, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#90c500', endColorstr='#6e9600', GradientType=0 );
+    padding: .6em 1.1em;
+    font-family: forum;
+    font-size: 16px;
+    outline: none;
+}
+.boton3:hover {
+    background: rgba(144,197,0,1);
+    background: -moz-linear-gradient(45deg, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(144,197,0,1)), color-stop(100%, rgba(110,150,0,1)));
+    background: -webkit-linear-gradient(45deg, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    background: linear-gradient(45deg, rgba(144,197,0,1) 0%, rgba(110,150,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#90c500', endColorstr='#6e9600', GradientType=1 );
+}
+
+figure img {
+    width: 80px;
+}
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer {
+    font-family: comfortaa;
+    font-size: .7rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb( 1,34,50);    
+}
+
+@media screen and (max-width: 640px){
+    /* logo */
+    section ~ img {
+        width: 50px;
+        margin: 15px;
+    }
+    /* menu top */
+    nav ul li {
+        color: white;
+        list-style: none;
+        border-right: 1px solid white;
+    }
+    nav ul {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav ul li:nth-child(4) {
+        border: none;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color:white;
+        margin: 0 10px;
+    }
+    nav ul li a:hover {
+        color: rgb(146,197, 0);
+    }
+    nav {
+    clear: both;
+    width: 100%;
+}
+    .boton {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146,197, 0);
+    border-radius: 50%;
+    text-align: center;
+    margin: 16px auto;
+}
+.boton img {
+    width: 32px;
+    height: 32px;
+}
+.secciones p {
+    margin: 0 30px;
+}
+.secciones {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 16px;
+}
+}
+@media screen and (min-width: 641px){
+   /* logo */
+    section ~ img {
+        width: 150px;
+        margin: 15px;
+    }
+    nav ul li {
+        color: white;
+        list-style: none;
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+    nav ul {
+        padding: 10px;
+        float: right;
+        text-align: left;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color:white;
+        margin: 0 5px;
+    }
+    nav ul li a:hover {
+        color: rgb(146,197, 0);
+    }
+    .imagen {
+        min-width: 55%;
+    }
+    .boton {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146,197, 0);
+    border-radius: 50%;
+    text-align: center;
+    margin: 16px auto;
+}
+.boton img {
+    width: 32px;
+    height: 32px;
+}
+.secciones p {
+    margin: 0 30px;
+}
+.secciones {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 16px;
+}
+}
